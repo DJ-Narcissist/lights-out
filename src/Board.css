@@ -1,3 +1,28 @@
+/* Board.css */
 .Board {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Cell {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Cell.on {
+  background-color: #77dd77; /* Pastel green */
+}
+
+.Cell.off {
+  background-color: #ff6961; /* Pastel red */
 }
