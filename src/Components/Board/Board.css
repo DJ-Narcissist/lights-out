@@ -1,0 +1,22 @@
+.Board {
+  border-collapse: collapse ;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5,1fr);
+  gap: 3px;
+  width: auto;
+  height: auto;
+}
+
+.Board td {
+  width: 40px;
+  border: 1px solid#000;
+  text-align: center;
+}
+
+.Board tr {
+  height: 40px;
+  border: 13px solid salmon;
+  text-align: justify;
+}

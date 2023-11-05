@@ -1,3 +1,18 @@
+.root{ 
+  --size: 25px;
+  --blue :var(--blue);
+  --orange :var(--orange);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+.html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(33,33,33);
+}
+
 .App {
-  text-align: center;
+  font-family: 'Monoton', cursive;
+  
 }

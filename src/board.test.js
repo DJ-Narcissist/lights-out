@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Board from "./Board";
+import Board from "./Components/Board/Board";
 
 describe("<Board /> rendering", function () {
   describe("inital board and win state", function () {
